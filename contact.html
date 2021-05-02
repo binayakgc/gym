@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/548474cf15.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="/css/indexstyle.css"> -->
+    <link rel="stylesheet" href="/css/contact.css">
+    <title>Gym Shop</title>
+</head>
+<body>
+
+    <input type ="checkbox" id="toggle-nav">
+    <div class="mobile-nav">
+        <div class="mobile-nav-header">
+            <span>Menu</span>
+            <div class="close-button">
+                <label for = "toggle-nav">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </label>
+            </div>
+        </div>
+        <div class="mobilenav-menu">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "shopnow.html">Shop Now</a></li>
+                <li><a href = "category.html">Category</a></li>
+                <li><a href = "about.html">About Us</a></li>
+                <li><a href = "contact.html">Contact Us</a></li>
+                <li><a href = "login.html">Log In</a></li>
+                <li><a href = "signup.html">Sign Up</a></li>
+                <li><a href = "Cart.html">Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header class = "header">
+        <nav class = "navigation">
+            <div class="top-header">
+                <marquee>
+                    <p>
+                        Special offer in Accessories!!!
+                        &ensp;<i class="fas fa-tags"></i>
+                        &emsp; &emsp;  Get It Now
+                        &ensp; <i class="fas fa-shopping-basket"></i>
+                        &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Seasonal saving!!!
+                        &ensp; <i class="fas fa-money-bill-alt"></i>
+                        &emsp; &emsp; New arrival here.
+                        &ensp; <i class="fas fa-cart-plus"></i>
+                    </p>
+                </marquee>
+            </div>
+            <div class="bottom-header">
+                <div class = "brand">
+                    <img src = "img/logo3.png" width = "150px" alt = "">
+                </div>
+                <div class = "alu" id="menulist">
+                    <ul>
+                        <li><a href = "shopnow.html">Shop Now</a></li>
+                        <li  class = "cat">
+                            <a href = "">Category</a>
+                                <div class="mega-box">
+                                    <ul class="mega-links">
+                                        <li><a href="category.html">Equipments</a></li>
+                                        <li><a href="category.html">Essentials</a></li>
+                                        <li><a href="category.html">Accessories</a></li>
+                                        <li><a href="category.html">Supports</a></li>
+                                        <li><a href="category.html">Others</a></li>
+                                    </ul>
+                                </div>
+                        </li>
+                        <li><a href = "about.html">About Us</a></li>
+                        <li><a href = "contact.html">Contact Us</a></li>
+                    </ul>
+                    <button class = "btn1 btn1-main"><a href="cart.html">Add to Cart</a></button>
+                    <label for="toggle-nav">
+                        <ion-icon name="menu-outline" class="ions"></ion-icon>
+                    </label>
+                </div> 
+            </div>
+
+            <div class = "nav-bottom">
+                <div class="search-box">
+                    <input class = "search-txt" type="text" name = "" placeholder="&ensp;Search">
+                    <a class = "search-btn1" href="#" aria-label="search">
+                       <i class="fas fa-search"></i>
+                    </a>
+                </div>
+    
+                <div class = "cart" >
+                    <a class = cart-btn1 href="cart.html" aria-label="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+    
+                <div class="register">
+                    <ul>
+                        <li> 
+                            <a href="login.html">Log In &nbsp;<i class="fas fa-sign-in-alt"></i></a>
+                        </li>
+                        <li> 
+                            <a href="signup.html">Sign Up &nbsp;<i class="fas fa-user-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+
+        </nav>
+        
+    </header>
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    
+    <main class ="split-screen">
+        <div class = "left">
+            <form>
+                <section class = "copy">
+                    <h2>
+                        Contact Us
+                    </h2>
+                </section>
+                <div class= "input-container name">
+                    <label for = "fname">Firts Name</label>
+                    <input id="fname" name = "fname" type = "text" placeholder="Enter your first name">
+                </div>
+                <div class= "input-container name">
+                    <label for = "lname">Last Name</label>
+                    <input id="lname" name = "fname" type = "text" placeholder="Enter your Last name">
+                </div>
+                <div class= "input-container email">
+                    <label for = "email">Email</label>
+                    <input id="email" name = "email" type = "email" placeholder="Enter your Email">
+                </div>
+                <div class= "input-container name">
+                    <label for = "desc">Description</label>
+                    <input id="desc" name = "desc" type = "text">
+                </div>
+                <button class = "Sub" type = "submit">Submit</button>
+            </form>
+            
+        </div>
+        <div class = "right">
+            <section class = "copy">
+                <p>
+                    <iframe title="My job Place" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059418475!2d-74.2598659480996!3d40.69714941820046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2snp!4v1619707636591!5m2!1sen!2snp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </p>
+             </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class = "wrapper1">
+            <p>Copyright &copy; 2021, Hamifit.com, Kathmandu,Nepal</p>
+            <p>All rights reserved.</p>
+        </div>
+
+    </footer>
+    <script src ="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> 
+    <script src = "https://kenwheeler.github.io/slick/slick/slick.js"></script>
+    
+</body>
+</html>

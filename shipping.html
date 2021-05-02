@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel="stylesheet" href="/css/shipping.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type ="checkbox" id="toggle-nav">
+    <div class="mobile-nav">
+        <div class="mobile-nav-header">
+            <span>Menu</span>
+            <div class="close-button">
+                <label for = "toggle-nav">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </label>
+            </div>
+        </div>
+        <div class="mobilenav-menu">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "shopnow.html">Shop Now</a></li>
+                <li><a href = "category.html">Category</a></li>
+                <li><a href = "about.html">About Us</a></li>
+                <li><a href = "contact.html">Contact Us</a></li>
+                <li><a href = "login.html">Log In</a></li>
+                <li><a href = "signup.html">Sign Up</a></li>
+                <li><a href = "Cart.html">Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <header class = "header">
+        <nav class = "navigation">
+            <div class="bottom-header">
+                <div class = "brand1">
+                    <img src = "img/logo3.png" class="abc" alt = "">
+                </div>
+
+                <div class = "alu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href = "shopnow.html">Shop Now</a></li>
+                        <li  class = "cat">
+                            <a href = "">Category</a>
+                                <div class="mega-box">
+                                    <ul class="mega-links">
+                                        <li><a href="category.html">Equipments</a></li>
+                                        <li><a href="category.html">Essentials</a></li>
+                                        <li><a href="category.html">Accessories</a></li>
+                                        <li><a href="category.html">Supports</a></li>
+                                        <li><a href="category.html">Others</a></li>
+                                    </ul>
+                                </div>
+                        </li>
+                        <li><a href = "about.html">About Us</a></li>
+                        <li><a href = "contact.html">Contact Us</a></li>
+                    </ul>
+                    <button class = "btn1 btn1-main"><a href="cart.html">Add to Cart</a></button>
+                </div>
+                <label for="toggle-nav" class = "ions">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </label>
+            </div>
+
+            <div class = "nav-bottom">
+                <div class="search-box">
+                    <input class = "search-txt" type="text" name = "" placeholder="&ensp;Search">
+                    <a class = "search-btn1" href="#" aria-label="search">
+                       <i class="fas fa-search"></i>
+                    </a>
+                </div>
+    
+                <div class = "cart" >
+                    <a class = cart-btn1 href="cart.html" aria-label="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+    
+                <div class="register">
+                    <ul>
+                        <li> 
+                            <a href="login.html">Log In &nbsp;<i class="fas fa-sign-in-alt"></i></a>
+                        </li>
+                        <li> 
+                            <a href="signup.html">Sign Up &nbsp;<i class="fas fa-user-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+
+        </nav>
+        
+    </header>
+
+    <main>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Shop now</a></li>
+            <li><a href="orderdetail.html">Delivery</a></li>
+        </ul>
+        <div class="container mt-5">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="bg-white p-2 border rounded px-3">
+                      <div class="d-flex flex-row justify-content-between align-items-center order">
+                          <div class="d-flex flex-column order-details"><span>Your order has been delivered</span><span class="date">by DHFL on 21 Jan, 2020</span></div>
+                          <div class="tracking-details"><button class="btn btn-outline-dark btn-sm" type="button">Track order details</button></div>
+                      </div>
+                      <hr class="divider mb-4">
+                      <div class="d-flex flex-row justify-content-between align-items-center align-content-center"><span class="dot"></span>
+                          <hr class="flex-fill track-line"><span class="dot"></span>
+                          <hr class="flex-fill track-line"><span class="dot"></span>
+                          <hr class="flex-fill track-line"><span class="dot"></span>
+                          <hr class="flex-fill track-line"><span class="d-flex justify-content-center align-items-center big-dot dot"><i class="fa fa-check text-white"></i></span></div>
+                      <div class="d-flex flex-row justify-content-between align-items-center">
+                          <div class="d-flex flex-column align-items-start"><span>15 Mar</span><span>Order placed</span></div>
+                          <div class="d-flex flex-column justify-content-center"><span>15 Mar</span><span>Order placed</span></div>
+                          <div class="d-flex flex-column justify-content-center align-items-center"><span>15 Mar</span><span>Order Dispatched</span></div>
+                          <div class="d-flex flex-column align-items-center"><span>15 Mar</span><span>Out for delivery</span></div>
+                          <div class="d-flex flex-column align-items-end"><span>15 Mar</span><span>Delivered</span></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+    </main>
+
+    <div class = "Thank">
+      <section class = "thanks">
+          <h1>
+            Thank You For Your Order
+          </h1>
+          <button class="btn1-why">
+            <a href="index.html">
+              Continue to shopping
+            </a>
+          </button>
+      </section>
+    </div>
+
+
+
+    <footer>
+        <div class = "wrapper1">
+            <div class="footer-grid">
+                <div class = "footer-card">
+                    <h1>
+                        Shop by Category
+                    </h1>
+                    <span>and find what you need</span>
+
+                    <div>
+                        <ul>
+                            <li><a href="">Equipments</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">Essentials</a></li>
+                            <li><a href="">Supports</a></li>
+                            <li><a href="">Others</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="">Men's</a></li>
+                            <li><a href="">Women's</a></li>
+                            <li><a href="">Kids</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class = "footer-card">
+                    <h1>
+                        Brands
+                    </h1>
+                    <span>Choose what u like</span>
+
+                    <div>
+                        <ul>
+                            <li><a href="">Syndicate</a></li>
+                            <li><a href="">Sunsai</a></li>
+                            <li><a href="">Hammer Strength</a></li>
+                            <li><a href="">StairMaster</a></li>
+                            <li><a href="">Precor</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="">Best-Tasting Protein Powder</a></li>
+                            <li><a href="">Whey Protein Powder</a></li>
+                            <li><a href="">Casein Protein Powder</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class = "footer-form">
+                    <h1>
+                        Stay in touch
+                    </h1>
+                    <span>
+                        and save 15% on your next order<br>
+                    </span>
+                    <p class = "bcd"><br>Copyright &copy; 2021</p>
+                    <p><br>These photos are royalty free</p>
+                    <div>
+                        <div class = "sub-form">
+                            <input type = "email" placeholder="email" class = "form-control">
+                            <button class = "btn1 btn1-main"><a href = "">Send</a></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/548474cf15.js" crossorigin="anonymous"></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+</body>
+</html>

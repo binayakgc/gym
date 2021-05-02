@@ -1,0 +1,253 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* BODY */
+
+
+:root{
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    --primary-red: #ff0000;
+
+}
+
+body{
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+a{
+    color: var(--primary-red);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.small{
+    font-size: 80%;
+    text-align: center;
+    margin-left: 57.5%;
+}
+
+.small1{
+    font-size: 80%;
+    text-align: center;
+    margin-left: 47.5%;
+    margin-bottom: 2%;
+}
+
+
+.split-screen
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.427),rgba(0, 0, 0, 0.3)) ,url(/img/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right{
+    /* border: #8B0000 solid 10px; */
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+
+.right .copy{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.right .copy p{
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+}
+
+.right form{
+    width: 320px;
+}
+
+
+
+form input[type = "password"]
+{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #c4c4c4;
+    padding: 1em;
+    font-size: 0.872rem;
+}
+
+form input[type = "email"]
+{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #c4c4c4;
+    padding: 1em;
+    margin-bottom: 1.25rem;
+    font-size: 0.872rem;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    color: #fff;
+}
+
+
+.checkbox-container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox-container{
+    display: block;
+    position: relative;
+    padding-left: 2rem;
+    cursor: pointer;
+    user-select: none;
+    margin: 0 0 1.25rem 0;
+}
+
+.checkbox-container input:checked~.checkmark{
+    background-color: var(--primary-red);
+    border: 1px solid var(--primary-red);
+}
+
+.checkmark{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    top: -4px;
+    left: 0;
+}
+
+.checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked~.checkmark:after{
+    display: block;
+}
+
+.checkbox-container .checkmark:after{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    width: 5px;
+    height: 10px;
+    left: 8px;
+    top: 4px;
+    transform: rotate(45deg);
+}
+
+.signup-btn{
+    display: block;
+    width: 100%;
+    background-color: #a00000;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    
+    
+}
+
+.signup-btn a{
+    color: white;
+    font-weight: 750;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.signup-btn:hover {
+    background: #932c2c;
+    cursor: pointer;
+}
+
+.signup-btn:hover a{
+   text-decoration: none;
+}
+@media screen and (min-width: 900px) {
+    .split-screen{
+        flex-direction: row;
+        height: 92.5vh;
+    }
+
+    .right{
+        display: flex;
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .split-screen{
+        flex-direction: row;
+        height: 92.5vh;
+    }
+
+    .right{
+        display: flex;
+        width: 50%;
+        height: auto;
+    }
+}
+
+
+/* Footer */
+
+
+footer{
+    padding: 1rem 0rem 0rem 2rem;
+    width: 100%;
+    /* position: absolute; */
+    width: 100%;
+    background-color: rgba(250, 46, 46, 0.6);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper1 p{
+    font-size:  .8rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}

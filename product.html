@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel="stylesheet" href="/css/product.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type ="checkbox" id="toggle-nav">
+    <div class="mobile-nav">
+        <div class="mobile-nav-header">
+            <span>Menu</span>
+            <div class="close-button">
+                <label for = "toggle-nav">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </label>
+            </div>
+        </div>
+        <div class="mobilenav-menu">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "shopnow.html">Shop Now</a></li>
+                <li><a href = "category.html">Shop Now</a></li>
+                <li><a href = "about.html">About Us</a></li>
+                <li><a href = "contact.html">Contact Us</a></li>
+                <li><a href = "login.html">Log In</a></li>
+                <li><a href = "signup.html">Sign Up</a></li>
+                <li><a href = "Cart.html">Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <header class = "header">
+        <nav class = "navigation">
+            <div class="bottom-header">
+                <div class = "brand1">
+                    <img src = "img/logo3.png" class="abc" alt = "">
+                </div>
+
+                <div class = "alu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href = "shopnow.html">Shop Now</a></li>
+                        <li  class = "cat">
+                            <a href = "">Category</a>
+                                <div class="mega-box">
+                                    <ul class="mega-links">
+                                        <li><a href="category.html">Equipments</a></li>
+                                        <li><a href="category.html">Essentials</a></li>
+                                        <li><a href="category.html">Accessories</a></li>
+                                        <li><a href="category.html">Supports</a></li>
+                                        <li><a href="category.html">Others</a></li>
+                                    </ul>
+                                </div>
+                        </li>
+                        <li><a href = "about.html">About Us</a></li>
+                        <li><a href = "contact.html">Contact Us</a></li>
+                    </ul>
+                    <button class = "btn1 btn1-main"><a href="credit.html">Add to Cart</a></button>
+                </div>
+                <label for="toggle-nav" class = "ions">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </label>
+            </div>
+
+            <div class = "nav-bottom">
+                <div class="search-box">
+                    <input class = "search-txt" type="text" name = "" placeholder="&ensp;Search">
+                    <a class = "search-btn1" href="#" aria-label="search">
+                       <i class="fas fa-search"></i>
+                    </a>
+                </div>
+    
+                <div class = "cart" >
+                    <a class = cart-btn1 href="cart.html" aria-label="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+    
+                <div class="register">
+                    <ul>
+                        <li> 
+                            <a href="login.html">Log In &nbsp;<i class="fas fa-sign-in-alt"></i></a>
+                        </li>
+                        <li> 
+                            <a href="signup.html">Sign Up &nbsp;<i class="fas fa-user-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+
+        </nav>
+        
+    </header>
+
+    <main>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shopnow.html">Shop now</a></li>
+            <li><a href="product.html">Product</a></li>
+        </ul>
+        <div class="super_container">
+            <div class="single_product">
+                <div class="container-fluid" style=" background-color: rgb(255, 255, 255); padding: 11px;">
+                    <div class="row">
+                        <div class="col-lg-2 order-lg-1 order-2">
+                            <ul class="image_list">
+                                <li data-image="/img/product2.1.jpg"><img src="/img/product2.1.jpg" alt=""></li>
+                                <li data-image="/img/product2.2.jpg"><img src="/img/product2.2.jpg" alt=""></li>
+                                <li data-image="/img/product2.3.jpg"><img src="/img/product2.3.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 order-lg-2 order-1">
+                            <div class="image_selected"><img src="/img/product2.jpg" alt=""></div>
+                        </div>
+                        <div class="col-lg-6 order-3">
+                            <div class="product_description">
+                                <div class="product_name">Rogue 105 kg weight plates </div>
+                                <div class="product-rating"><span class="badge badge-success" style='background-color:rgb(1, 97, 17)'><i class="fa fa-star"></i> 4.5 Star</span> <span class="rating-review">35 Ratings & 45 Reviews</span></div>
+                                <div> <span class="product_price">$97.83</span> <strike class="product_discount"> <span style='color:black'>- $20<span> </strike> </div>
+                                <div> <span class="product_saved">You Saved:</span> <span style='color:black'> $20<span> </div>
+                                <hr class="singleline">
+                                <div> <span class="product_info">Key Features<span><br> <span class="product_info">Brand: Rogue<span><br> <span class="product_info">Each weight is fully encapsulated in impact resistant polyurethane <br> that will not crack, fade or peel.<span><br> <span class="product_info">Has higher tear strength than rubber.<span><br> <span class="product_info">7 Days easy return policy<span> </div>
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="br-dashed">
+                                                <div class="row">
+                                                    <div class="col-md-3 col-xs-3"> <img src="https://img.icons8.com/color/48/000000/price-tag.png" alt=""> </div>
+                                                    <div class="col-md-9 col-xs-9">
+                                                        <div class="pr-info"> <span class="break-all">Get 5% instant discount </span> </div>
+                                                        <div class="pr-info"> <span class="break-all">10 in stocks </span> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7"> </div>
+                                    </div>
+                                </div>
+                                <hr class="singleline">
+                                <div class="order_info d-flex flex-row">
+                                    <form action="#">
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6" style="margin-left: 13px;">
+                                        <div class="product_quantity"> <span>QTY: </span> <input id="quantity_input" type="text" pattern="[0-9]*" inputmode="numeric" ><label for="quantity_input">1</label>
+                                            <div class="quantity_buttons">
+                                                <div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i></div>
+                                                <div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fas fa-chevron-down"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <a href="cart.html">
+                                         <button type="button" class="btn shop-button"  style="background-color: blue; color:rgb(255, 255, 255)">Add to Cart</button>
+                                        </a>
+                                         <a href="payment.html">
+                                         <button type="button" class="btn btn-danger shop-button">Buy Now</button>
+                                        </a>
+                                        <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-underline">
+                        <div class="col-md-6"> <span class=" deal-text">Combo Offers</span> </div>
+                        <div class="col-md-6"> <a href="#" data-abc="true" aria-label="row-underline"> <span class="ml-auto view-all"></span> </a> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="row padding-2">
+                                <div class="col-md-5 padding-0">
+                                    <div class="bbb_combo">
+                                        <div class="bbb_combo_image"><img class="bbb_combo_image" src="/img/Accessories1.jpg" alt=""></div>
+                                        <div class="d-flex flex-row justify-content-start"> <strike style="color:red;"> <span class="fs-10" style="color:black;">$ 13.57 <span> </span></span></strike> <span class="ml-auto"><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i></span> </div>
+                                        <div class="d-flex flex-row justify-content-start" style=" margin-bottom: 13px; "> <span style="margin-top: -4px;">$9.97 </span> <span class="ml-auto fs-10">23 Reviews</span> </div> <span>High Quality Yoga Mats comfortable for Yoga</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 text-center"> <span class="step">+</span> </div>
+                                <div class="col-md-5 padding-0">
+                                    <div class="bbb_combo">
+                                        <div class="bbb_combo_image"><img class="bbb_combo_image" src="/img/product5.jpg" alt=""></div>
+                                        <div class="d-flex flex-row justify-content-start"> <strike style="color:red;"> <span class="fs-10" style="color:black;">$ 12.67<span> </span></span></strike> <span class="ml-auto"><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i></span> </div>
+                                        <div class="d-flex flex-row justify-content-start" style=" margin-bottom: 13px; "> <span style="margin-top: -4px;">10.57 </span> <span class="ml-auto fs-10">23 Reviews</span> </div> <span> Exercises Ball that helps in Yoga and Abdominal Exercise.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12" style="margin-left: 36px;">
+                                    <div class="boxo-pricing-items">
+                                        <div class="add-both-cart-button"> 
+                                            <a href="cart.html">
+                                                <button type="button" class="btn shop-button"  style="background-color: blue; color:rgb(255, 255, 255)">Add to Cart</button>
+                                            </a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 text-center"> <span class="vertical-line"></span> </div>
+                        <div class="col-md-5" style=" margin-left: -27px;">
+                            <div class="row padding-2">
+                                <div class="col-md-5 padding-0">
+                                    <div class="bbb_combo">
+                                        <div class="bbb_combo_image"><img class="bbb_combo_image" src="/img/product1.jpg" alt=""></div>
+                                        <div class="d-flex flex-row justify-content-start"> <strike style="color:red;"> <span class="fs-10" style="color:black;">$11.67 <span> </span></span></strike> <span class="ml-auto"><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating p-rating"></i><i class="fa fa-star p-rating"></i></span> </div>
+                                        <div class="d-flex flex-row justify-content-start" style=" margin-bottom: 13px; "> <span style="margin-top: -4px;">$8.9</span> <span class="ml-auto fs-10">23 Reviews</span> </div> <span>Small weight Dumbells that helps in Yoga and Exercise.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 text-center"> <span class="step">+</span> </div>
+                                <div class="col-md-5 padding-0">
+                                    <div class="bbb_combo">
+                                        <div class="bbb_combo_image"><img class="bbb_combo_image" src="/img/Accessories2.jpg" alt=""></div>
+                                        <div class="d-flex flex-row justify-content-start"> <strike style="color:red;"> <span class="fs-10" style="color:black;">$21.67<span> </span></span></strike> <span class="ml-auto"><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i></span> </div>
+                                        <div class="d-flex flex-row justify-content-start" style=" margin-bottom: 13px; "> <span style="margin-top: -4px;">417.99</span> <span class="ml-auto fs-10">23 Reviews</span> </div> <span>Helps in gripping the object</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12" style="margin-left: 36px;">
+                                    <div class="boxo-pricing-items">
+                                        <div class="add-both-cart-button"> 
+                                            <a href="cart.html">
+                                                <button type="button" class="btn shop-button"  style="background-color: blue; color:rgb(255, 255, 255)">Add to Cart</button>
+                                            </a>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-underline">
+                        <div class="col-md-6"> <span class=" deal-text">Specifications</span> </div>
+                        <div class="col-md-6"> <a href="#" data-abc="true" aria-label="row-underline"> <span class="ml-auto view-all"></span> </a> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table class="col-md-12">
+                                <tbody>
+                                    <tr class="row mt-10">
+                                        <td class="col-md-4"><span class="p_specification">Sales Package :</span> </td>
+                                        <td class="col-md-8">
+                                            <ul>
+                                                <li>Weight plates, Weight rod, plate holder</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr class="row mt-10">
+                                        <td class="col-md-4"><span class="p_specification">Model Number :</span> </td>
+                                        <td class="col-md-8">
+                                            <ul>
+                                                <li> 14-us0107TU </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr class="row mt-10">
+                                        <td class="col-md-4"><span class="p_specification">Part Number :</span> </td>
+                                        <td class="col-md-8">
+                                            <ul>
+                                                <li>7AL8o9A</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr class="row mt-10">
+                                        <td class="col-md-4"><span class="p_specification">Color :</span> </td>
+                                        <td class="col-md-8">
+                                            <ul>
+                                                <li>Black, Red, Yellow, Blue, Green</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr class="row mt-10">
+                                        <td class="col-md-4"><span class="p_specification">Brand :</span> </td>
+                                        <td class="col-md-8">
+                                            <ul>
+                                                <li>Rogue</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class = "wrapper1">
+            <div class="footer-grid">
+                <div class = "footer-card">
+                    <h4>
+                        Shop by Category
+                    </h4>
+                    <span>and find what you need</span>
+
+                    <div>
+                        <ul>
+                            <li><a href="">Equipments</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">Essentials</a></li>
+                            <li><a href="">Supports</a></li>
+                            <li><a href="">Others</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="">Men's</a></li>
+                            <li><a href="">Women's</a></li>
+                            <li><a href="">Kids</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class = "footer-card">
+                    <h4>
+                        Brands
+                    </h4>
+                    <span>Choose what u like</span>
+
+                    <div>
+                        <ul>
+                            <li><a href="">Syndicate</a></li>
+                            <li><a href="">Sunsai</a></li>
+                            <li><a href="">Hammer Strength</a></li>
+                            <li><a href="">StairMaster</a></li>
+                            <li><a href="">Precor</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="">Best-Tasting Protein Powder</a></li>
+                            <li><a href="">Whey Protein Powder</a></li>
+                            <li><a href="">Casein Protein Powder</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class = "footer-form">
+                    <h4>
+                        Stay in touch
+                    </h4>
+                    <span>
+                        and save 15% on your next order<br>
+                    </span>
+                    <p class = "bcd"><br>Copyright &copy; 2021</p>
+                    <p><br>These photos are royalty free</p>
+                    <div>
+                        <div class = "sub-form">
+                            <input type = "email" placeholder="email" class = "form-control">
+                            <button class = "btn1 btn1-main"><a href = "">Send</a></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/548474cf15.js" crossorigin="anonymous"></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script>
+        $(document).ready(function(){
+
+            $('.radio-group .radio').click(function(){
+            $('.radio').addClass('gray');
+            $(this).removeClass('gray');
+            });
+            
+            $('.plus-minus .plus').click(function(){
+            var count = $(this).parent().prev().text();
+            $(this).parent().prev().html(Number(count) + 1);
+            });
+            
+            $('.plus-minus .minus').click(function(){
+            var count = $(this).parent().prev().text();
+            $(this).parent().prev().html(Number(count) - 1);
+            });
+            
+            });
+    </script>
+
+</body>
+</html>

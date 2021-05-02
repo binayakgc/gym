@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/548474cf15.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/indexstyle.css">
+    <title>Gym Shop</title>
+</head>
+<body>
+
+    <input type ="checkbox" id="toggle-nav">
+    <div class="mobile-nav">
+        <div class="mobile-nav-header">
+            <span>Menu</span>
+            <div class="close-button">
+                <label for = "toggle-nav">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </label>
+            </div>
+        </div>
+        <div class="mobilenav-menu">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "shopnow.html">Shop Now</a></li>
+                <li><a href = "category.html">Category</a></li>
+                <li><a href = "about.html">About Us</a></li>
+                <li><a href = "contact.html">Contact Us</a></li>
+                <li><a href = "login.html">Log In</a></li>
+                <li><a href = "signup.html">Sign Up</a></li>
+                <li><a href = "Cart.html">Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header class = "header">
+        <nav class = "navigation">
+            <div class="top-header">
+                <marquee>
+                    <p>
+                        Special offer in Accessories!!!
+                        &ensp;<i class="fas fa-tags"></i>
+                        &emsp; &emsp;  Get It Now
+                        &ensp; <i class="fas fa-shopping-basket"></i>
+                        &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Seasonal saving!!!
+                        &ensp; <i class="fas fa-money-bill-alt"></i>
+                        &emsp; &emsp; New arrival here.
+                        &ensp; <i class="fas fa-cart-plus"></i>
+                    </p>
+                </marquee>
+            </div>
+            <div class="bottom-header">
+                <div class = "brand">
+                    <img src = "img/logo3.png" width = "150px" alt = "">
+                </div>
+                <div class = "alu" id="menulist">
+                    <ul>
+                        <li><a href = "shopnow.html"><span id = "bb">Shop Now</span></a></li>
+                        <li  class = "cat">
+                            <a href = ""><span id = "c">Category</span></a>
+                                <div class="mega-box">
+                                    <ul class="mega-links">
+                                        <li><a href="category.html"><span id = "ca">Equipments</span></a></li>
+                                        <li><a href="category.html"><span id = "cb">Essentials</span></a></li>
+                                        <li><a href="category.html"><span id = "cc">Accessories</span></a></li>
+                                        <li><a href="category.html"><span id = "cd">Supports</span></a></li>
+                                        <li><a href="category.html"><span id = "ce">Others</span></a></li>
+                                    </ul>
+                                </div>
+                        </li>
+                        <li><a href = "about.html"><span id = "dd">About Us</span></a></li>
+                        <li><a href = "contact.html"><span id = "ee">Contact Us</span></a></li>
+                    </ul>
+                    <button class = "btn1 btn1-main"><a href="cart.html">Add to Cart</a></button>
+                    <label for="toggle-nav">
+                        <ion-icon name="menu-outline" class="ions"></ion-icon>
+                    </label>
+                    <div>
+                        <button class="acessibility" onclick="b()">
+                            font +
+                        </button>
+                        <button class="acessibility" onclick="n()">
+                            font N
+                        </button>
+                        <button class="acessibility" onclick="s()">
+                            font -
+                        </button>
+                    </div> 
+                </div>
+            </div>
+
+            <div class = "nav-bottom">
+                <div class="search-box">
+                    <input class = "search-txt" type="text" name = "" placeholder="&ensp;Search">
+                    <a class = "search-btn1" href="#" aria-label="search">
+                       <i class="fas fa-search"></i>
+                    </a>
+                </div>
+    
+                <div class = "cart" >
+                    <a class = cart-btn1 href="cart.html" aria-label="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+    
+                <div class="register">
+                    <ul>
+                        <li> 
+                            <a href="login.html">Log In &nbsp;<i class="fas fa-sign-in-alt"></i></a>
+                        </li>
+                        <li> 
+                            <a href="signup.html">Sign Up &nbsp;<i class="fas fa-user-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                
+    
+            </div>
+
+        </nav>
+        
+    </header>
+
+    
+    
+    <main class = "abc">
+
+        <div class ="hero-section">
+            <h3>
+                Gym Motivation
+            </h3>
+            <div class="motive">
+                <p>
+                    Just
+                </p>
+                <p>
+                    Do
+                </p>
+                <p>
+                    IT!
+                </p>
+            </div>
+        </div>
+
+            <div class = "main2">
+
+                <div class = "Offer">
+                    <div class = "wrapper">
+                        <div class = "offer-header">
+    
+                            <h2>
+                                <span class ="text-main">
+                                    Special offer
+                                </span>
+                                <i class="fas fa-tags"></i>
+                            </h2>
+                            <div class="slider-wrapper">
+                                <div class = "slider-container">
+    
+                                    <div class="slide">
+                                        <div class="slide-badge">
+                                            <span>Save <br>
+                                                $7.00</span>
+                                        </div>
+                                        <div class="slide-image" style = "background-image: url(/img/Accessories1.jpg)">
+                                        </div>
+                                        <div class="slide-info">
+                                            <h3>
+                                                Yoga Mat
+                                            </h3>
+                                            <div class="price">
+                                                <span>$35.00</span> |
+                                                <span>$28.00</span>
+                                            </div>
+                                            <div class="slide-btn1">
+                                                <a href="product.html">
+                                                    <button class="btn1-block">
+                                                        View Details
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>                    
+                                    </div>
+    
+                                    <div class="slide">
+                                        <div class="slide-badge">
+                                            <span>Save <br>
+                                                $5.00</span>
+                                        </div>
+                                        <div class="slide-image" style = "background-image: url(/img/Accessories2.jpg)">
+                                        </div>
+                                        <div class="slide-info">
+                                            <h3>
+                                                Support Gloves
+                                            </h3>
+                                            <div class="price">
+                                                <span>$12.49</span> |
+                                                <span>$17.99</span>
+                                            </div>
+                                            <div class="slide-btn1">
+                                                <a href="product.html">
+                                                    <button class="btn1-block">
+                                                        View Details
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>                    
+                                    </div>
+    
+                                    <div class="slide">
+                                        <div class="slide-badge">
+                                            <span>Save <br>
+                                                $7.00</span>
+                                        </div>
+                                        <div class="slide-image" style = "background-image: url(/img/Accessories3.jpg)">
+                                        </div>
+                                        <div class="slide-info">
+                                            <h3>
+                                                Weight Lifting Belts
+                                            </h3>
+                                            <div class="price">
+                                                <span>$33.99</span> |
+                                                <span>$40.99</span>
+                                            </div>
+                                            <div class="slide-btn1">
+                                                <a href="product.html">
+                                                    <button class="btn1-block">
+                                                        View Details
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>                    
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="slider-container">
+                                    <div class="slide">
+                                        <div class="slide-badge">
+                                            <span>Save <br>
+                                                $5.00</span>
+                                        </div>
+                                        <div class="slide-image" style = "background-image: url(/img/Accessories5.jpg)">
+                                        </div>
+                                        <div class="slide-info">
+                                            <h3>
+                                                Exercise balls
+                                            </h3>
+                                            <div class="price">
+                                                <span>$26.97</span> |
+                                                <span>$31.97</span>
+                                            </div>
+                                            <div class="slide-btn1">
+                                                <a href="product.html">
+                                                    <button class="btn1-block">
+                                                        View Details
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>                    
+                                    </div>
+    
+                                    <div class="slide">
+                                        <div class="slide-badge">
+                                            <span>Save <br>
+                                                $6.00</span>
+                                        </div>
+                                        <div class="slide-image" style = "background-image: url(/img/Accessories4.jpg)">
+                                        </div>
+                                        <div class="slide-info">
+                                            <h3>
+                                                Exercise wheels
+                                            </h3>
+                                            <div class="price">
+                                                <span>$30.00</span> |
+                                                <span>$36.00</span>
+                                            </div>
+                                            <div class="slide-btn1">
+                                                <a href="product.html">
+                                                    <button class="btn1-block">
+                                                        View Details
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>                    
+                                    </div>
+    
+                                    <div class="slide">
+                                        <div class="slide-badge">
+                                            <span>Save <br>
+                                                $2.00</span>
+                                        </div>
+                                        <div class="slide-image" style = "background-image: url(/img/Accessories7.jpg)">
+                                        </div>
+                                        <div class="slide-info">
+                                            <h3>
+                                               Push up Bar
+                                            </h3>
+                                            <div class="price">
+                                                <span>$11.49</span> |
+                                                <span>$13.99</span>
+                                            </div>
+                                            <div class="slide-btn1">
+                                                <a href="product.html">
+                                                    <button class="btn1-block">
+                                                        View Details
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>                    
+                                    </div>
+    
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="promo-section">
+                <div class="wrapper">
+                    <div class="promo-grid">
+                     <div class="promo-banner-text">
+                        <h2>The Best seasonal sale on the block.</h2> 
+                        <p>15% off your entire order</p>
+                        <button class="btn1-shop">
+                             <a href="shopnow.html">Shop</a>
+                        </button>
+                     </div>
+     
+                     <div class="promo-card">
+                         <div class="promo-img">
+                             <img src="/img/1.jpg" width= "100%" alt="">
+                         </div>
+                         <div class="promo-text">
+                             <a href="">Barbell</a>
+                         </div>
+                     </div>
+     
+                     <div class="promo-card">
+                         <div class="promo-img">
+                             <img src="/img/2.jpg" width= "100%" alt="">
+                         </div>
+                         <div class="promo-text">
+                             <a href="">Treadmills</a>
+                         </div>
+                     </div>
+     
+                    </div>
+                </div>
+             </div>
+
+             <div class = "why">
+                <div class = "choose">
+                        <span class = "us">Why Choose US?</span>
+                        <p>
+                            Trying to make your body from fat to fit, thin to thicc and to increase it’s power,
+                            speed and mobility ? For that, You will need our best equipment and accessories 
+                            with varieties of workouts. So, check out now and get ready to hit the beach this summer.
+                        </p>
+                    <button class="btn1-why">
+                        <a href="shopnow.html">
+                        Get Your Item Now
+                        </a>
+                    </button>
+    
+                </div>
+            </div>
+
+            <div class = "features-section">
+                <div class="wrapper">
+                    <div class="features-grid">
+                        <div class="features-single">
+                            <div>
+                                <ion-icon class ="a" name ="airplane-outline"></ion-icon>
+                            </div>
+                            <span>Safe Shipping</span>
+                        </div>
+                        <div class="features-single">
+                            <div>
+                                <ion-icon class ="a" name ="bus-outline"></ion-icon>
+                            </div>
+                            <span>Fast fulfillments</span>
+                        </div>
+                        <div class="features-single">
+                            <div>
+                                <ion-icon class ="a" name ="accessibility-outline"></ion-icon>
+                            </div>
+                            <span>Satisfaction Gaurantee</span>
+                        </div>
+                        <div class="features-single">
+                            <div>
+                                <ion-icon class ="a" name ="lock-closed-outline"></ion-icon>
+                            </div>
+                            <span>Secure Checkout</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </main>
+
+
+    <footer>
+        <div class = "wrapper">
+            <div class="footer-grid">
+                <div class = "footer-card">
+                    <h1>
+                        Shop by Category
+                    </h1>
+                    <span>and find what you need</span>
+
+                    <div>
+                        <ul>
+                            <li><a href="">Equipments</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">Essentials</a></li>
+                            <li><a href="">Supports</a></li>
+                            <li><a href="">Others</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="">Men's</a></li>
+                            <li><a href="">Women's</a></li>
+                            <li><a href="">Kids</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class = "footer-card">
+                    <h2>
+                        Brands
+                    </h2>
+                    <span>Choose what u like</span>
+
+                    <div>
+                        <ul>
+                            <li><a href="">Syndicate</a></li>
+                            <li><a href="">Sunsai</a></li>
+                            <li><a href="">Hammer Strength</a></li>
+                            <li><a href="">StairMaster</a></li>
+                            <li><a href="">Precor</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="">Best-Tasting Protein Powder</a></li>
+                            <li><a href="">Whey Protein Powder</a></li>
+                            <li><a href="">Casein Protein Powder</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class = "footer-form">
+                    <h3>
+                        Stay in touch
+                    </h3>
+                    <span>
+                        and save 15% on your next order<br>
+                    </span>
+                    <p class = "bcd"><br>Copyright &copy; 2021</p>
+                    <p><br>These photos are royalty free</p>
+                    <div>
+                        <div class = "sub-form">
+                            <input type = "email" placeholder="email" class = "form-control">
+                            <button class = "btn1 btn1-main"><a href = "">Send</a></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- <script src ="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <!-- <script src="/js/slick.min.js"></script>
+    <script src="/js/slick.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> 
+    <script src = "https://kenwheeler.github.io/slick/slick/slick.js"></script>
+
+    
+    <script>
+        function b(){
+            document.getElementById('bb').style.fontSize = "2rem";
+            document.getElementById('c').style.fontSize = "2rem";
+            document.getElementById('dd').style.fontSize = "2rem";
+            document.getElementById('ee').style.fontSize = "2rem";
+            document.getElementById('ca').style.fontSize = "2rem";
+            document.getElementById('cb').style.fontSize = "2rem";
+            document.getElementById('cc').style.fontSize = "2rem";
+            document.getElementById('cd').style.fontSize = "2rem";
+            document.getElementById('ce').style.fontSize = "2rem";
+        }
+        function n(){
+            document.getElementById('bb').style.fontSize = "1rem";
+            document.getElementById('c').style.fontSize = "1rem";
+            document.getElementById('dd').style.fontSize = "1rem";
+            document.getElementById('ee').style.fontSize = "1rem";
+            document.getElementById('ca').style.fontSize = "17px";
+            document.getElementById('cb').style.fontSize = "17px";
+            document.getElementById('cc').style.fontSize = "17px";
+            document.getElementById('cd').style.fontSize = "17px";
+            document.getElementById('ce').style.fontSize = "17px";
+        }
+        function s(){
+            document.getElementById('bb').style.fontSize = ".5rem";
+            document.getElementById('c').style.fontSize = ".5rem";
+            document.getElementById('dd').style.fontSize = ".5rem";
+            document.getElementById('ee').style.fontSize = ".5rem";
+            document.getElementById('ca').style.fontSize = ".5rem";
+            document.getElementById('cb').style.fontSize = ".5rem";
+            document.getElementById('cc').style.fontSize = ".5rem";
+            document.getElementById('cd').style.fontSize = ".5rem";
+            document.getElementById('ce').style.fontSize = ".5rem";
+        }
+    </script>
+        
+</body>
+</html>
